@@ -1,0 +1,30 @@
+.ctx-menu{
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Chrome/Safari/Opera */
+  -khtml-user-select: none; /* Konqueror */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none;
+}
+
+.ctx-menu-content{
+  border: 1px solid gray;
+  background-color: white;
+  position: absolute;
+  padding: 0px 0px;
+}
+
+.ctx-menu-content ul{
+  list-style: none;
+  padding: 0px 0px;
+  margin: 0px;
+}
+
+.ctx-menu-content ul li{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.ctx-menu-content ul li:hover{
+  background-color: gray;
+}

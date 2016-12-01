@@ -1,0 +1,55 @@
+{
+  "root": true,
+  "env": {
+    "node": true
+  },
+  "parser": "babel-eslint",
+  "extends": [
+    "eslint:recommended",
+    "vue"
+  ],
+  "rules": {
+    "indent": [
+      "off",
+      "tab"
+    ],
+    "linebreak-style": [
+      "off",
+      "unix"
+    ],
+    "quotes": [
+      "off",
+      "single"
+    ],
+    "semi": [
+      "off",
+      "always"
+    ],
+    "no-console": [
+      "off",
+      {
+        "allow": [
+          "off",
+          "error"
+        ]
+      }
+    ],
+    "space-before-blocks": [
+      "off",
+      {
+        "functions": "never",
+        "keywords": "always",
+        "classes": "never"
+      }
+    ],
+    "key-spacing": [
+      "off",
+      {
+        "beforeColon": false
+      }
+    ],
+    "space-before-function-paren": [
+      "off"
+    ]
+  }
+}

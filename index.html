@@ -5,7 +5,12 @@
     <title>vue2-context-menu</title>
   </head>
   <body>
-    <div id="app"></div>
+    <div id="app">
+        <h1>hello world</h1>
+        <ctx-menu :items="items" @menuclick="menuClick">
+            <h2> context content </h2>
+        </ctx-menu>
+    </div>
     <!-- built files will be auto injected -->
   </body>
 </html>
