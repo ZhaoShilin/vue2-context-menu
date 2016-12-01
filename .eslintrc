@@ -50,6 +50,13 @@
     ],
     "space-before-function-paren": [
       "off"
+    ],
+    "no-multiple-empty-lines": [
+      "off",
+      {
+        "max": 2,
+        "maxEOF": 1
+      }
     ]
   }
 }
