@@ -1,6 +1,6 @@
 {
   "name": "vue2-context-menu",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Right-click menu based on Vue2.x",
   "author": "Shawn Liu",
   "main": "index.js",
